@@ -23,5 +23,18 @@ int main() {
 		spi2 += hg;
 		pi2 = sqrt(6 * spi2);
 		chislo2 += 1;
+		//ВЫВОД
+		if (hod + 1 > orientir) {
+			cout << pi1 << ", " << hod << "    " << "ОРИЕНТИР - 3.141592653589793" << std::endl;
+			cout << pi2 << ", " << hod << "    " << "ОРИЕНТИР - 3.141592653589793" << std::endl;
+			cout << endl;
+			if (orientir == 100000) {
+				pokaNorm = false;
+			}
+			else {
+				orientir += 1000;
+			}
+
+		}
 	}
 }
