@@ -18,5 +18,10 @@ int main() {
 		spi1 += (pow(-1, hod) * gh);
 		pi1 = 4 * spi1;
 		chislo1 += 2;
+		//ВТОРОЕ ВЫЧИСЛЕНИЕ
+		long double hg = 1 / pow(chislo2, 2);
+		spi2 += hg;
+		pi2 = sqrt(6 * spi2);
+		chislo2 += 1;
 	}
 }
